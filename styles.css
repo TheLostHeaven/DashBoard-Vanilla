@@ -1,0 +1,10 @@
+@layer utilities {
+    .content-auto {
+    content-visibility: auto;
+    }
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
