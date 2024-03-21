@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/js/tailwind.config.js"></script>
+    <script src="../../js/tailwind.config.js"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
-    <link rel="icon" href="/img/Logo.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="icon" href="../../img/Logo.png">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../css/menu.css">
     <title>Electronic</title>
 </head>
 <body>
@@ -25,8 +25,8 @@
                             <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
                             </svg>
                         </button>
-                    <a href="/pages/home.html" class="flex ms-2 md:me-24">
-                        <img src="/img/Logo.png" class="h-8 me-3" alt="FlowBite Logo" />
+                    <a href="../home.html" class="flex ms-2 md:me-24">
+                        <img src="../../img/Logo.png" class="h-8 me-3" alt="Logo" />
                         <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">Dashboard</span>
                     </a>
                     </div>
@@ -49,7 +49,7 @@
                         </div>
                             <ul class="py-1" role="none">
                             <li>
-                                <a href="/index.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</a>
+                                <a href="../../index.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</a>
                             </li>
                             </ul>
                         </div>
@@ -60,72 +60,72 @@
             </nav>
         
             <div class="flex flex-row flex-grow">
-                <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-50 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
-                    <div class="h-full px-7 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
-                        <ul class="space-y-2 font-medium">
-                        <li>
-                            <!-- Dropdown menu 1-->
-                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Items <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <aside id="logo-sidebar" class="fixed top-0 left-0 z-40 w-50 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700" aria-label="Sidebar">
+                <div class="h-full px-7 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
+                    <ul class="space-y-2 font-medium">
+                    <li>
+                        <!-- Dropdown menu 1-->
+                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Items <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg>
+                        </button>
+                        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                                <li>
+                                <a href="../Items/add.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">AddItem</a>
+                                </li>
+                                <li>
+                                <a href="../Items/show.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ShowItems</a>
+                                </li>
+                                <li>
+                                <a href="../Items/update.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UpdateItem</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- Dropdown menu 2-->
+                    <li>
+                        <button id="dropdownDefaultButton2" data-dropdown-toggle="dropdown2" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Users <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                             </svg>
                             </button>
-                            <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                                    <li>
-                                    <a href="/pages/Items/add.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">AddItem</a>
-                                    </li>
-                                    <li>
-                                    <a href="/pages/Items/show.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ShowItems</a>
-                                    </li>
-                                    <li>
-                                    <a href="/pages/Items/update.item.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UpdateItem</a>
-                                    </li>
+                                <li>
+                                <a href="../Users/add.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">AddUsers</a>
+                                </li>
+                                <li>
+                                <a href="../Users/show.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ShowUsers</a>
+                                </li>
+                                <li>
+                                <a href="../Users/update.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UpdateUsers</a>
+                                </li>
                                 </ul>
                             </div>
                         </li>
-                        <!-- Dropdown menu 2-->
+                    <!-- Dropdown menu 3-->
                         <li>
-                            <button id="dropdownDefaultButton2" data-dropdown-toggle="dropdown2" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Users <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                            <button id="dropdownDefaultButton3" data-dropdown-toggle="dropdown3" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Tables <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                                 </svg>
                                 </button>
-                                <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                                <div id="dropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                                     <li>
-                                    <a href="/pages/Users/add.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">AddUsers</a>
+                                    <a href="../tables/table.electronic.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Electronica</a>
                                     </li>
                                     <li>
-                                    <a href="/pages/Users/show.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ShowUsers</a>
+                                    <a href="../tables/table.food.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Comida</a>
                                     </li>
                                     <li>
-                                    <a href="/pages/Users/update.users.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UpdateUsers</a>
+                                    <a href="../tables/table.furniture.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Muebles</a>
                                     </li>
-                                    </ul>
+                                </ul>
                                 </div>
                             </li>
-                        <!-- Dropdown menu 3-->
-                            <li>
-                                <button id="dropdownDefaultButton3" data-dropdown-toggle="dropdown3" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Tables <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                                    </svg>
-                                    </button>
-                                    <div id="dropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-                                        <li>
-                                        <a href="/pages//tables/table.electronic.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Electronica</a>
-                                        </li>
-                                        <li>
-                                        <a href="/pages/tables/table.food.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Comida</a>
-                                        </li>
-                                        <li>
-                                        <a href="/pages/tables/table.furniture.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Muebles</a>
-                                        </li>
-                                    </ul>
-                                    </div>
-                                </li>
-                        </ul>
-                    </div>
-                </aside>
+                    </ul>
+                </div>
+            </aside>
         
         
 <main class="mt-20 sm:ml-10 md:ml-56 md:mr-16 flex-grow">
